@@ -1,0 +1,76 @@
+.job-listings-container {
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Align items with space between */
+  }
+  
+  .job-card {
+    width: calc(25% - 10px); /* 4 job cards in a row with space between */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition for 3D effect */
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Add translation on hover for 3D effect */
+  }
+  
+  .job-card-content {
+    padding: 20px;
+  }
+  
+  .job-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .job-card p {
+    margin: 5px 0;
+  }
+  
+  .job-card img {
+    max-width: 50px;
+    border-radius: 5px;
+    margin-right: 500px;
+    margin-top: 20px;
+  }
+  
+  .job-card a {
+    display: block;
+    margin-top: 10px;
+    background-color: #00b392;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .job-card a:hover {
+    background-color: black;
+  }
+  
+  /* components/JobListings.css */
+  
+  .view-job-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .view-job-button:hover {
+    background-color: #47d9c3;
+  }
+  
